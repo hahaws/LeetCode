@@ -1,11 +1,10 @@
-class Solution {
+class LongestCommomnPrefix {
     public String longestCommonPrefix(String[] strs) {
         int len=strs.length;
         if(len<=0){
             return "";
         }
         int minlen=strs[0].length();
-        //遍历出最短的字符串
         for(int i=1;i<len; ) {
             if (strs[i].length() < minlen) {
                 minlen = strs[i].length();
