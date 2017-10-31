@@ -21,7 +21,8 @@ class RemoveDuplicatesfromSortedArray {
     }
 }
 
-/*LeetCode上的解答方案为：
+
+/*LeetCode上的解答方案为
 public int removeDuplicates(int[] nums) {
     int i = 0;
     for (int n : nums)
