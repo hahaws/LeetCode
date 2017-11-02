@@ -1,9 +1,8 @@
 public class LeetCode {
     public static void main(String[] args){
-        ImplementStr so= new ImplementStr();
-        String h="";
-        String n="";
-        int i=so.strStr(h,n);
+        SearchInsertPosition so= new SearchInsertPosition();
+        int[] nums={1,3,5,6};
+        int i=so.searchInsert(nums,0);
         System.out.println(""+i);
 
     }
