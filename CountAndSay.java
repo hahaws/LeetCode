@@ -13,6 +13,7 @@ Note: Each term of the sequence of integers will be represented as a string.*/
 请使用StringBuffer或StringBuilder，当你确定连接操作只发生在单一线程环境下时，使用StringBuilder而不是StringBuffer。
 经过对jdk源码的分析（别人的分析） 需要连接的String的数量小于4的，直接使用String.concat()来连接不会产生垃圾
 使用StringBuilder时的连接方法为 String.append(String)*/
+//难受 做了好久
 //用两个for循环来实现递归的思想，合理设置循环变量
 public class CountAndSay {
     public String countAndSay(int n){
