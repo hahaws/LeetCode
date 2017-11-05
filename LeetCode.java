@@ -1,8 +1,8 @@
 public class LeetCode {
     public static void main(String[] args){
-        MaximumSubarray so= new MaximumSubarray();
-        int[] nums={-2,1,-3,4,-1,2,1,-5,4};
-        int i=so.maxSubArray(nums);
+        LengthofLastWord so= new LengthofLastWord();
+        String s=" hello ";
+        int i=so.lengthOfLastWord(s);
         System.out.println(""+i);
 
     }
