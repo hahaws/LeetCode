@@ -1,11 +1,9 @@
 public class LeetCode {
     public static void main(String[] args){
-        PLusOne so= new PLusOne();
-        int[] nums={-1,9,-1};
-        int[] i=so.plusOne(nums);
-        for(int j=0;j<i.length;j++){
-            System.out.println(i[j]);
-        }
-
+        AddBinary so= new AddBinary();
+        String a="1010";
+        String b="1011";
+        String res=so.addBinary(a,b);
+        System.out.println(res);
     }
 }
