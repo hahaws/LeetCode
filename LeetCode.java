@@ -1,9 +1,10 @@
+import java.io.File;
+
 public class LeetCode {
     public static void main(String[] args){
-        AddBinary so= new AddBinary();
-        String a="1010";
-        String b="1011";
-        String res=so.addBinary(a,b);
-        System.out.println(res);
+        ClimbStairs so = new ClimbStairs();
+        int n=44;
+        int m=so.climbStairs(n);
+        System.out.println(""+m);
     }
 }
