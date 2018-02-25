@@ -2,17 +2,17 @@ import java.io.File;
 
 public class LeetCode {
     public static void main(String[] args){
-        int[] nums1=new int[10];
-        nums1[0]=1;
-        nums1[1]=3;
-        nums1[2]=5;
-        nums1[3]=6;
-        int[] nums2=new int[3];
-        nums2[0]=0;
-        nums2[1]=4;
-        nums2[2]=5;
-        merge so=new merge();
-        so.merge(nums1,4,nums2,3);
+        TreeNode t1=new TreeNode(1);
+        t1.left=new TreeNode(2);
+        t1.left.left=new TreeNode(3);
+        t1.right=new TreeNode(4);
+        TreeNode t2=new TreeNode(1);
+        t2.left=new TreeNode(2);
+        t2.left.left=new TreeNode(3);
+        t2.right=new TreeNode(5);
+        SameTree so=new SameTree();
+        boolean a=so.isSameTree(t1,t2);
+        System.out.println(a);
 
     }
 }
