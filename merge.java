@@ -13,9 +13,5 @@ public class merge {
             nums1[k--]=nums2[j--];
         }
 
-        for (int  a:nums1
-             ) {
-            System.out.print(a+" ");
-        }
     }
 }
